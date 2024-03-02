@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Movie Reviews</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ 
+
+  <style>
+    body {
+      background-color: #f8f9fa; /* Light gray background */
+      color: #000000; /* Black text */
+    }
+
+    .movie-container {
+      margin-top: 20px;
+      border: 1px solid #ced4da; /* Light gray border */
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #ffffff; /* White background */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    }
+
+    .movie-container img {
+      height: 200px;
+      width: auto;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .rating-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .star {
+      color: #FFD700;
+      font-size: 24px;
+      margin: 0 2px;
+    }
+
+    .movie-title {
+      color: #000000; /* Updated to black text */
+    }
+
+    .btn-primary {
+      background-color: #000000; /* Updated to black for primary button */
+      border-color: #000000;
+    }
+
+    .btn-primary:hover {
+      background-color: #000000; /* Updated to black on hover */
+      border-color: #000000;
+    }
+
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+  <h1 class="movie-container text-center text-black p-5">John Dell's Movie Reviews</h1>
+
+    <div class="container mt-3 movie-container">
+      <h2 class="mb-3 movie-title">Land of Bad</h2>
+      <img src="Bad.jpeg" alt="Land of Bad" class="img-fluid rounded">
+      <p>When a Delta Force team is ambushed in enemy territory, a rookie officer refuses to abandon them. Their only hope lies with an Air Force drone pilot as the eyes in the sky during a brutal 48-hour battle for survival.</p>
+      <div class="rating-container">
+      <p>Rating: <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></p>
+      <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+
+    <div class="container mt-3 movie-container">
+      <h2 class="mb-3 movie-title">Out of Darkness</h2>
+      <img src="Dark.jpeg" alt="Out of Darkness" class="img-fluid rounded">
+      <p>About 45,000 years ago, a desperate band of early humans finds a new land to settle in. As they start to realize that something monstrous is hunting them down, they must confront a horrifying danger that they never could have imagined.</p>
+      <div class="rating-container">
+      <p>Rating: <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></p>
+      <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+
+    <div class="container mt-3 movie-container">
+      <h2 class="mb-3 movie-title">Code 8</h2>
+      <img src="Code.jpeg" alt="Code8" class="img-fluid rounded">
+      <p>A desperate young man with special powers commits a series of petty crimes and is hunted by a militarised police force.</p>
+      <div class="rating-container">
+      <p>Rating: <span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span><span class="star">&#9733;</span></p>
+      <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
